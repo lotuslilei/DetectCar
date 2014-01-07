@@ -1,0 +1,58 @@
+﻿已經開始建置於 2014/1/7 下午 11:52:30。
+     1>節點 2 (build 目標) 上的專案 "F:\sc\vs\DetectCar\DetectCar\DetectCar.vcxproj"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\DetectCar.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detect.cpp
+         detect.cpp
+     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
+     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(17): warning C4244: 'return' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(50): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(144): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(217): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(218): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(219): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(249): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(250): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(251): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\detect.cpp(252): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+       ManifestResourceCompile:
+         所有輸出都是最新的。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\sc\vs\DetectCar\Debug\DetectCar.exe" /INCREMENTAL /NOLOGO opencv_core248d.lib opencv_imgproc248d.lib opencv_highgui248d.lib opencv_ml248d.lib opencv_video248d.lib opencv_features2d248d.lib opencv_calib3d248d.lib opencv_objdetect248d.lib opencv_contrib248d.lib opencv_legacy248d.lib opencv_flann248d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DetectCar.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\sc\vs\DetectCar\Debug\DetectCar.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\sc\vs\DetectCar\Debug\DetectCar.lib" /MACHINE:X86 Debug\DetectCar.exe.embed.manifest.res
+         Debug\camshift.obj
+         Debug\ColorDetect.obj
+         Debug\detect.obj
+         Debug\edge.obj
+         Debug\generateImage.obj
+         Debug\generatenegativeimages.obj
+         Debug\generateTrainImage.obj
+         Debug\hof.obj
+         Debug\illumination.obj
+         Debug\main.obj
+         Debug\resize.obj
+         Debug\ShapeDetect.obj
+         Debug\train.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\DetectCar.exe.embed.manifest" /manifest Debug\DetectCar.exe.intermediate.manifest
+         所有輸出都是最新的。
+       LinkEmbedManifest:
+         所有輸出都是最新的。
+         DetectCar.vcxproj -> F:\sc\vs\DetectCar\Debug\DetectCar.exe
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\DetectCar.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\DetectCar.lastbuildstate"。
+     1>專案 "F:\sc\vs\DetectCar\DetectCar\DetectCar.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.25
