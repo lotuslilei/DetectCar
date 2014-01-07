@@ -142,8 +142,8 @@ void main(){
 	{
 		cout<<"Start video detect."<<endl;
 		DetectObj mydetect;
-		mydetect.startVideoDetect("data\\hog_svm_car.xml", "data\\00030003_xvid.avi","data\\test_end.avi",128,128);
-		//mydetect.startVideoDetect("data\\hog_svm.xml", "data\\00030003_xvid.avi","data\\test_end.avi",48,144);
+		//mydetect.startVideoDetect("data\\hog_svm_car.xml", "data\\00030003_xvid.avi","data\\test_end.avi",128,128);
+		mydetect.startVideoDetect("data\\hog_svm_mot.xml", "data\\00030003_xvid.avi","data\\test_end.avi",48,144);
 		//mydetect.startVideoDetect("D:\\Data\\PR\\hog_svm.xml", "D:\\Data\\PR\\TrainVideo\\Vehicle\\11291051_0031.avi","D:\\Data\\PR\\test_end.avi",128,128);
 	}
 	else if ( c == 9 )

@@ -1,30 +1,14 @@
-﻿已經開始建置於 2014/1/7 下午 11:52:30。
+﻿已經開始建置於 2014/1/8 上午 12:26:07。
      1>節點 2 (build 目標) 上的專案 "F:\sc\vs\DetectCar\DetectCar\DetectCar.vcxproj"。
      1>InitializeBuildStatus:
          由於指定了 "AlwaysCreate"，因此正在建立 "Debug\DetectCar.unsuccessfulbuild"。
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detect.cpp
-         detect.cpp
-     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 請參閱 'fopen' 的宣告
-     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\opencv\build\include\opencv2\flann\dist.h : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\opencv\build\include\opencv2\legacy\compat.hpp : warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(17): warning C4244: 'return' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(26): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 請參閱 'strcpy' 的宣告
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(50): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(144): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\sc\vs\detectcar\detectcar\main.cpp(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(217): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(218): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(219): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(249): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(250): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(251): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
-     1>f:\sc\vs\detectcar\detectcar\detect.cpp(252): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>f:\sc\vs\detectcar\detectcar\main.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
        ManifestResourceCompile:
          所有輸出都是最新的。
        Link:
@@ -55,4 +39,4 @@
 
 建置成功。
 
-經過時間 00:00:01.25
+經過時間 00:00:01.49
